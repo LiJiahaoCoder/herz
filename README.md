@@ -1,14 +1,16 @@
-# Webpack React Template
+# Herz
 
-A simple `React` project based on `bootstrap`, `typescript` and `webpack5`.
+`Herz (German)` means heart in English, but it's pronounced 盒子 in Chinese.
+
+A simple customize box style and preview project, based on [Webpack React Template](https://github.com/LiJiahaoCoder/webpack-react-template).
+
+[Click to preview](https://lijiahaocoder.github.io/herz/)
 
 ## How to use?
 
 ```bash
-git clone https://github.com/LiJiahaoCoder/webpack-react-template.git
+git clone https://github.com/LiJiahaoCoder/herz.git
 ```
-
-Or click `Use this template` button in *GitHub* page.
 
 Then enter project directory, then:
 
@@ -20,16 +22,6 @@ yarn start
 # build project
 yarn build
 ```
-
-## TODO
-
-- [x] Add react router;
-- [x] Add page lazy load;
-- [x] Add `eslint` and `stylelint`;
-- [x] Add `husky`;
-- [x] Add `Jest`;
-- [x] Support less or scss;
-- [ ] ~~Npm tool to create project(just like `create-react-app`)~~ May be *GitHub* template is enough :)
 
 ## License
 

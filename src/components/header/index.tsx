@@ -2,36 +2,21 @@ import classnames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from '@/assets/webpack.svg';
 import GitHub from '@/assets/github.svg';
+import Svg from '@/components/svg';
 
 import styles from './index.less';
 
 const menus = [
   {
-    path: '/',
+    path: '/herz/',
     text: '🏠',
   },
-  {
-    path: '/not-found',
-    text: '👐',
-  },
 ];
-
-interface SvgProps {
-  content: string;
-}
-
-const Svg = ({ content }: SvgProps) => (
-  <span
-    // eslint-disable-next-line react/no-danger
-    dangerouslySetInnerHTML={{ __html: content }}
-    role="img"
-  />
-);
 
 const Header = () => (
   <header className="sticky-top py-3 shadow-sm bg-light">
     <div className="container d-flex justify-content-between align-items-center">
-      <Link to="/" className={classnames('w-25', styles.logo)}>
+      <Link to="/herz/" className={classnames('w-25', styles.logo)}>
         <Svg content={Logo} />
       </Link>
       <div>

@@ -1,14 +1,9 @@
 import { lazy } from 'react';
-import NotFound from '@/pages/not-found';
 
 const routes = [
   {
-    path: '/',
+    path: '/herz/',
     element: lazy(() => import('@/pages/home')),
-  },
-  {
-    path: '*',
-    element: NotFound,
   },
 ];
 

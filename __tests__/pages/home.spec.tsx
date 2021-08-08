@@ -5,6 +5,6 @@ describe('Home test', () => {
   test('should render correctly', () => {
     const { getByText } = render(<Home />);
 
-    expect(getByText('Webpack React Template')).toBeInTheDocument();
+    expect(getByText('Herz')).toBeInTheDocument();
   });
 });
