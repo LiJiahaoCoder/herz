@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkherz=self.webpackChunkherz||[]).push([["src_pages_home_index_tsx"],{tCGL:(e,r,t)=>{t.r(r),t.d(r,{default:()=>n});var s=t("nKUr");const n=function(){return(0,s.jsx)("h1",{className:"text-primary text-center pt-5",children:"Herz"})}}}]);
